@@ -46,14 +46,38 @@ supertype(Float64)
 # ╔═╡ 931b7d75-6d5f-4bff-9f35-53e4b3ad3f14
 Float64 |> supertype |> supertype|> supertype|> supertype
 
-# ╔═╡ bc87478d-0fef-406f-8e59-e5f75a8cbeb1
-v = [1.0, 1.0]
+# ╔═╡ f6d722f6-1d29-4a3b-82b5-a72da172ff6d
+d = [1.0, Float32(1.0)]
+
+# ╔═╡ 14ea05c9-1b2b-40a5-8f7a-17565a0cebff
+c = [1.0, 'a']
 
 # ╔═╡ 5e6b4399-30d5-4f5c-b003-fab907539be4
 eltype(v)
 
-# ╔═╡ f6d722f6-1d29-4a3b-82b5-a72da172ff6d
+# ╔═╡ ecfcb4ed-7895-4528-88ff-ceaf067d6709
+type_tree()
 
+# ╔═╡ bc87478d-0fef-406f-8e59-e5f75a8cbeb1
+# ╠═╡ disabled = true
+#=╠═╡
+v = [1.0, 1.0]
+  ╠═╡ =#
+
+# ╔═╡ 586dd17c-7bc3-404f-83e5-b764342e48e7
+# ╠═╡ disabled = true
+#=╠═╡
+v = Any[1, 1.0]
+  ╠═╡ =#
+
+# ╔═╡ 0ff4d58e-4f94-415e-bc98-8bf5888ff3c5
+# ╠═╡ disabled = true
+#=╠═╡
+v = []
+  ╠═╡ =#
+
+# ╔═╡ d9845dd1-fce4-4a4b-957d-5c61e1cb2f5f
+v = Real[1, 1.0]
 
 # ╔═╡ Cell order:
 # ╠═9e1c271a-a8e8-11ee-0fe3-7db12e43c175
@@ -73,3 +97,8 @@ eltype(v)
 # ╠═bc87478d-0fef-406f-8e59-e5f75a8cbeb1
 # ╠═5e6b4399-30d5-4f5c-b003-fab907539be4
 # ╠═f6d722f6-1d29-4a3b-82b5-a72da172ff6d
+# ╠═14ea05c9-1b2b-40a5-8f7a-17565a0cebff
+# ╠═0ff4d58e-4f94-415e-bc98-8bf5888ff3c5
+# ╠═586dd17c-7bc3-404f-83e5-b764342e48e7
+# ╠═d9845dd1-fce4-4a4b-957d-5c61e1cb2f5f
+# ╠═ecfcb4ed-7895-4528-88ff-ceaf067d6709
